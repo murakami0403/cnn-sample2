@@ -154,7 +154,7 @@ y_train = np_utils.to_categorical(y_train, nb_classes)
 y_test = np_utils.to_categorical(y_test, nb_classes)
 
 #loading model
-if(0):        
+if(1):        
     model = load_model(f_model,nb_epoch)
 else:
     model = build_model()
